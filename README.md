@@ -13,7 +13,7 @@ A chess engine in at most 4,096 bytes of Python, entered in
 
 - 0x88 board with incremental material + piece-square score and Zobrist
   hashing maintained in make/unmake.
-- Negamax with PVS, iterative deepening to a fixed budget of 80,000
+- Negamax with PVS, iterative deepening to a fixed budget of 120,000
   nodes a move (never a clock, so replays match move for move).
 - Transposition table, check extensions, null-move pruning, late-move
   reductions, killer moves and history ordering, MVV-LVA captures.
